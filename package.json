@@ -1,6 +1,6 @@
 {
-  "name": "blinds-and-shades-admin",
-  "homepage": "blinds-and-shades-admin",
+  "name": "blinds-admin",
+  "homepage": "blinds-admin",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -33,7 +33,7 @@ const EditProfile = () => {
   };
 
   useEffect(() => {
-    document.title = "Blinds And Shades | Edit Profile";
+    document.title = "Blinds Admin | Edit Profile";
     setOptionData(country);
     setUserData(currentUser);
   });

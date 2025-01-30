@@ -19,7 +19,7 @@ const AdminLogin = () => {
   console.log(formData.password);
 
   useEffect(() => {
-    document.title = "Blinds And Shades | Login";
+    document.title = "Blinds Admin | Login";
   }, []);
 
   const handleSubmit = async (event) => {

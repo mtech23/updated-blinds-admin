@@ -18,7 +18,7 @@ const ForgetPassword3 = () => {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    document.title = "Blinds And Shades | Password Recovery";
+    document.title = "Blinds Admin | Password Recovery";
   }, []);
 
   const handleClick = async () => {

@@ -14,7 +14,7 @@ const ForgetPassword = () => {
   const [formData, setFormData] = useState({});
 
   useEffect(() => {
-    document.title = "Blinds And Shades | Password Recovery";
+    document.title = "Blinds Admin | Password Recovery";
   }, []);
 
   const handleClick = async (e) => {

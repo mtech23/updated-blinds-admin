@@ -29,7 +29,7 @@ export const ProductDetails = () => {
 
   useEffect(() => {
     const LogoutData = localStorage.getItem("accessToken");
-    document.title = "Blinds And Shades Admin | Book Detail";
+    document.title = "Blinds Admin | Book Detail";
     document.querySelector(".loaderBox").classList.remove("d-none");
     fetch(
       `https://custom.mystagingserver.site/Tim-WDLLC/public/api/admin/book_view/${id}`,

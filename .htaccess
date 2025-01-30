@@ -5,5 +5,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-l
-    RewriteRule . SomaHire/index.html [L]
+    RewriteRule . blinds-admin/index.html [L]
 </IfModule>

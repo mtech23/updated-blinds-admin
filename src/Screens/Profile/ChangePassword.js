@@ -23,7 +23,7 @@ const ChangePassword = () => {
   };
 
   useEffect(() => {
-    document.title = "Blinds And Shades | Change Password";
+    document.title = "Blinds Admin | Change Password";
 
     setUserData(currentUser);
   }, []);

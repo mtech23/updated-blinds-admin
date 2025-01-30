@@ -55,7 +55,7 @@ export const GalleryManagement = () => {
   };
 
   useEffect(() => {
-    document.title = "Blinds And Shades | Product Management";
+    document.title = "Blinds Admin | Product Management";
     ProductData();
   }, []);
 

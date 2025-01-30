@@ -31,7 +31,7 @@ export const Sidebar = (props) => {
           </Link>
         </li>
 
-        <li className="sidebar-li">
+        {/* <li className="sidebar-li">
           <Link
             className={`sideLink ${
               location.pathname.includes("product") ? "active" : ""
@@ -43,9 +43,9 @@ export const Sidebar = (props) => {
             </span>
             <span className="sideLinkText">Product Management</span>
           </Link>
-        </li>
+        </li> */}
 
-        <li className="sidebar-li">
+        {/* <li className="sidebar-li">
           <Link
             className={`sideLink ${
               location.pathname.includes("order") ? "active" : ""
@@ -57,9 +57,9 @@ export const Sidebar = (props) => {
             </span>
             <span className="sideLinkText">Order Management</span>
           </Link>
-        </li>
+        </li> */}
 
-        <li className="sidebar-li">
+        {/* <li className="sidebar-li">
           <Link
             className={`sideLink ${
               location.pathname.includes("category") ? "active" : ""
@@ -71,8 +71,8 @@ export const Sidebar = (props) => {
             </span>
             <span className="sideLinkText">Category Management</span>
           </Link>
-        </li>
-        <li className="sidebar-li">
+        </li> */}
+        {/* <li className="sidebar-li">
           <Link
             className={`sideLink ${
               location.pathname.includes("color") ? "active" : ""
@@ -84,7 +84,7 @@ export const Sidebar = (props) => {
             </span>
             <span className="sideLinkText">Color Management</span>
           </Link>
-        </li>
+        </li> */}
         <li className="sidebar-li">
           <Link
             className={`sideLink ${
@@ -125,7 +125,7 @@ export const Sidebar = (props) => {
             <span className="sideLinkText">Gallery Management</span>
           </Link>
         </li>
-        <li className="sidebar-li">
+        {/* <li className="sidebar-li">
           <Link
             className={`sideLink ${
               location.pathname.includes("#") ? "active" : ""
@@ -137,7 +137,7 @@ export const Sidebar = (props) => {
             </span>
             <span className="sideLinkText">Subscription Management</span>
           </Link>
-        </li>
+        </li> */}
 
         {/* <li className="sidebar-li">
           <Link className={`sideLink ${location.pathname.includes('/product-management') ? 'active' : ''}`} to="/product-management">
