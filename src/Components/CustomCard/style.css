@@ -94,6 +94,12 @@ main {
   width: 100%;
   text-align: justify;
   color: #ffffff;
+
+
+  display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .sidebar {
   max-width: 23%;

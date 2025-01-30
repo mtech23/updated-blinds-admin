@@ -84,7 +84,7 @@ export const Header = (props) => {
       <Navbar className="customHeader" expand="md">
         <Container fluid>
           <Link
-            to={"/dashboard"}
+            // to={"/dashboard"}
             className="siteLogo order-2 order-lg-3 text-decoration-none"
           >
             {/* <h1>Food <span>Stadium</span></h1> */}
@@ -98,7 +98,7 @@ export const Header = (props) => {
             className="customCollapse order-3"
           >
             <Nav className="ms-auto">
-              <Dropdown className="notiDropdown me-2">
+              {/* <Dropdown className="notiDropdown me-2">
                 <Dropdown.Toggle variant="transparent" className="notButton">
                   <FontAwesomeIcon className="bellIcon" icon={faBell} />
                 </Dropdown.Toggle>
@@ -130,7 +130,7 @@ export const Header = (props) => {
                     <Link to={"/notifications"}>View All</Link>
                   </div>
                 </Dropdown.Menu>
-              </Dropdown>
+              </Dropdown> */}
               <Dropdown className="userDropdown">
                 <Dropdown.Toggle
                   variant="transparent"

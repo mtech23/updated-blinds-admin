@@ -17,7 +17,7 @@ export const Sidebar = (props) => {
   return (
     <div className={`sidebar ${props.sideClass}`} id="sidebar">
       <ul className="list-unstyled">
-        <li className="sidebar-li">
+        {/* <li className="sidebar-li">
           <Link
             className={`sideLink ${
               location.pathname.includes("/dashboard") ? "active" : ""
@@ -29,7 +29,7 @@ export const Sidebar = (props) => {
             </span>
             <span className="sideLinkText">Dashboard</span>
           </Link>
-        </li>
+        </li> */}
 
         {/* <li className="sidebar-li">
           <Link

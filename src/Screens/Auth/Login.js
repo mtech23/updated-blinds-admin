@@ -36,7 +36,7 @@ const AdminLogin = () => {
 
         console.log("Login Response:", response);
         document.querySelector(".loaderBox").classList.add("d-none");
-        navigate("/dashboard");
+        navigate("/blogs-management");
       } else {
         document.querySelector(".loaderBox").classList.add("d-none");
         alert("Invalid Credentials");
